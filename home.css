@@ -1,0 +1,29 @@
+/* Hi! -from Ben */
+h1{
+    font-family: sans-serif;
+    animation-name: mainAnim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+#main{
+    text-align: center;
+}
+@keyframes mainAnim{
+    0% {color: red;}
+    28% {color: orange;}
+    42% {color: rgb(189, 189, 0);}
+    45% {color:rgb(149, 221, 40);}
+    56% {color: green;}
+    70% {color:rgb(0, 192, 192);}
+    84% {color: blue;}
+    98% {color: purple;}
+}
+a:hover{
+    font-size: 120%;
+}
+a{
+    font-size: 100%;
+    transition: font-size 0.5s;
+}
